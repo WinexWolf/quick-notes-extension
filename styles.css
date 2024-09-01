@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+#app {
+  text-align: center;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+textarea.dark-mode {
+  background-color: #555;
+  color: #fff;
+  border-color: #888;
+}
+
+button {
+  margin-top: 10px;  
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button.dark-mode {
+  background-color: #555;
+  color: #fff;
+  border-color: #fff;
+}

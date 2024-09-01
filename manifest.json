@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Quick Notes",
+  "version": "1.0",
+  "description": "Take quick notes directly in your new tab.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icon.png"
+  }
+}
